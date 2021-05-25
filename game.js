@@ -48,7 +48,6 @@ function buttonClicked(){
   console.log(userClickedPattern);
   checkAnswer();
   if (userTurnNum==gamePattern.length){
-    userTurnNum =1;
     nextSequence();
   }
 }
